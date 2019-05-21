@@ -120,6 +120,7 @@ $QFDS -d Detectors smoke_detector.fds
 $QFDS -d Energy_Budget energy_budget_adiabatic_walls.fds
 $QFDS -d Energy_Budget energy_budget_adiabatic_two_fuels.fds
 $QFDS -d Energy_Budget energy_budget_cold_walls.fds
+$QFDS -d Energy_Budget energy_budget_combustion.fds
 $QFDS -d Energy_Budget energy_budget_dns_100.fds
 $QFDS -d Energy_Budget energy_budget_tmix.fds
 $QFDS -d Energy_Budget energy_budget_solid.fds
@@ -128,7 +129,8 @@ $QFDS -d Energy_Budget energy_budget_solid.fds
 #$QFDS -d Evacuation evac_smv_testcase2.fds
 #$QFDS -p 3 -d Evacuation evac_smv_testcase1.fds
 
-$QFDS -d Extinction extinction.fds
+$QFDS -d Extinction extinction_1.fds
+$QFDS -d Extinction extinction_2.fds
 
 $QFDS -d Fires box_burn_away1.fds
 $QFDS -d Fires box_burn_away2.fds
